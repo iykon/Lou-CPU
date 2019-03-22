@@ -16,8 +16,8 @@ Almost all the parts are transplanted from SingleClock CPU with some modificatio
   * init file: can be customized, the test.coe file provides one testing routine and the test.txt file is the explanation of it.
 
 ## Debug
-1. The timming of Multi-Clock CPU. If one element uses the data read from one register at an positive edge, this element must do the write operation at the following negative edge to avoid writing errors.
-2. To demonstrate it, we have to provide the clk pulse manually. Initially the clk pulses are given with a button, but the button is sometimes not stable as there are bounces, so in the .ucf file the clk is changed into one switch.
+1. The timing of Multi-Clock CPU. If one element uses the data read from one register at a positive edge, this element must do the write operation at the following negative edge to avoid writing errors.
+2. To demonstrate it, we have to provide the clk pulse manually. Initially, the clk pulses are given with a button, but the button is sometimes not stable as there are bounces, so in the .ucf file the clk is changed into one switch.
 
 ##Instructions implemented:
 1. R-type:
